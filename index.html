@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic Day - Entry</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(orange, white, green);
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            color: darkgreen;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 5px black;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 2rem;
+        }
+        button {
+            font-size: 1.5rem;
+            color: white;
+            background-color: darkgreen;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px black;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: orange;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Republic Day Celebration</h1>
+        <p>Click below to experience the true spirit of patriotism!</p>
+        <button id="enterBtn">Enter</button>
+    </div>
+
+    <script>
+        document.getElementById('enterBtn').addEventListener('click', function() {
+            alert("Get ready to experience the true patriotism!");
+            window.location.href = "Page2.html";
+        });
+    </script>
+</body>
+</html>
