@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic Day 2025</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            height: 50vh;
+            background: linear-gradient(orange, white, green);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .banner h1 {
+            color: darkgreen;
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px black;
+        }
+        .banner img {
+            margin-top: 10px;
+            width: 120px;
+        }
+        .content {
+            padding: 20px;
+        }
+        h2 {
+            color: darkorange;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #555;
+            line-height: 1.8;
+        }
+        .freedom-fighters {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .fighter {
+            width: 300px;
+            border: 2px solid darkgreen;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+        }
+        .fighter img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .fighter h3 {
+            margin: 10px 0;
+            color: darkgreen;
+            font-size: 1.5rem;
+        }
+        .fighter p {
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.5;
+        }
+        .fighter button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: darkorange;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+            box-shadow: 2px 2px 5px black;
+        }
+        .fighter button:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>Happy Republic Day 2025</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="Indian Flag">
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <h2>A Tribute to Our Nation and Heroes</h2>
+        <p>Today, we celebrate the unity, diversity, and freedom of our nation. On this special occasion, we honor the freedom fighters who made our independence and Republic possible.</p>
+
+        <!-- Freedom Fighters Section -->
+        <div class="freedom-fighters">
+            <!-- Fighter 1 -->
+            <div class="fighter">
+                <img src="https://i.ibb.co/vLvV9nw/d3de5e22712d.jpg" alt="Mahatma Gandhi">
+                <h3>Mahatma Gandhi</h3>
+                <p>The Father of the Nation, who led India to freedom through non-violence and truth.</p>
+                <button onclick="showMessage('Mahatma Gandhi')">Learn More</button>
+            </div>
+            <!-- Fighter 2 -->
+            <div class="fighter">
+                <img src="https://i.ibb.co/qp7LYWZ/ac82c9b8a9a5.jpg" alt="Bhagat Singh">
+                <h3>Bhagat Singh</h3>
+                <p>A revolutionary who inspired millions with his bravery and sacrifice.</p>
+                <button onclick="showMessage('Bhagat Singh')">Learn More</button>
+            </div>
+            <!-- Fighter 3 -->
+            <div class="fighter">
+                <img src="https://i.ibb.co/xmRQWzC/ae5c0846e313.jpg" alt="Subhas Chandra Bose">
+                <h3>Subhas Chandra Bose</h3>
+                <p>The founder of INA, Netaji's vision was to achieve freedom through strength.</p>
+                <button onclick="showMessage('Subhas Chandra Bose')">Learn More</button>
+            </div>
+            <!-- Fighter 4 -->
+            <div class="fighter">
+                <img src="https://i.ibb.co/Fkv9XVB/de29c1dac099.jpg" alt="B.R. Ambedkar">
+                <h3>Dr. B.R. Ambedkar</h3>
+                <p>The architect of the Indian Constitution, who worked tirelessly for equality.</p>
+                <button onclick="showMessage('Dr. B.R. Ambedkar')">Learn More</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showMessage(fighterName) {
+            alert(fighterName + " played a pivotal role in India's freedom and progress. Salute to their contributions!");
+        }
+    </script>
+</body>
+</html>
